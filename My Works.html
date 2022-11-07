@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dinh Viet's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style> 
+  .row 
+  {
+    padding-top: 70px;
+  }
+
+  .col
+  {
+    margin-left: 20px;
+  }
+
+  h1
+  {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: bold;
+  }
+
+  h3
+  {
+    color: #616f39;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+  }
+
+  p
+  {
+     font-family: 'Overpass', sans-serif;
+  }
+
+  img
+  {
+    padding-bottom: 16px;
+  }
+
+  a{
+    padding-right: 100px;
+    font-size: 20px;
+  }
+
+  .footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1
+{
+  font-weight: 700;
+  font-family: 'Libre Bodoni', serif;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 16px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 8px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+</style>
+
+
+
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Homepage.html" style="font-family: 'Libre Bodoni', serif; padding-left: 20px;">Viet's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item" style="margin-left: 650px">
+          <a class="nav-link" href="Homepage.html">Home</a>
+        </li>
+        <li class="nav-item"style="margin-left: 50px">
+          <a class="nav-link" href="My Works.html">My Works</a>
+        </li>
+        <li class="nav-item"style="margin-left: 50px">
+          <a class="nav-link" href="About Me.html">About Me</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<br><br>
+<h1 style="padding-top: 30px; padding-bottom: 24px;">Mobile App Design</h1>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="D:\Việt\Portfolio kì 7\Coding\Photo\Image\2.webp" alt="Mountains" style="width:100%">
+      <h3>Pack&Go</h3>
+      <p>A travel planner application which allows users to schedule their trips by picking up the location and save as schedule. We bring the wonders of the world into just one application to help users gather inspirations.</p>
+      <a class="but" href="Mobile App.html"><button type="button" class="btn btn-primary btn-lg" style="padding-left: 20px; padding-right: 20px;background-color: #616f39">See more</button></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="D:\Việt\Portfolio kì 7\Coding\Photo\Image\1.webp" alt="Lights" style="width:100%">
+      <h3>KaraFun</h3>
+      <p>You can sing rap, pop, rock, and even Latin music. And if you want, you can also record yourself, with or without your friends, singing your favorite songs. You can then save your performance or share it with the world.</p>
+      <a class="but" href="Mobile App.html"><button type="button" class="btn btn-primary btn-lg" style="padding-left: 20px; padding-right: 20px;background-color: #616f39">See more</button></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="D:\Việt\Portfolio kì 7\Coding\Photo\Image\3.webp" alt="Nature" style="width:100%">
+      <h3>Pody</h3>
+      <p>the easiest way to find, save and listen to all your favorite podcasts. Discover new podcasts and learn about any topic from news, education, comedy, politics to religion, crime, and many more. </p>
+      <a class="but" href="Mobile App.html"><button type="button" class="btn btn-primary btn-lg" style="padding-left: 20px; padding-right: 20px;background-color: #616f39">See more</button></a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="D:\Việt\Portfolio kì 7\Coding\Photo\Image\4.webp" alt="Mountains" style="width:100%">
+      <h3>CinéLover</h3>
+      <p> Allowing bookings in a few easy steps. Users can process online payments and customize events. This powerful cinema ticket booking system can be deployed on any website offering tickets for movies and theater.</p>
+      <a class="but" href="Mobile App.html"><button type="button" class="btn btn-primary btn-lg" style="padding-left: 20px; padding-right: 20px;background-color: #616f39">See more</button></a>
+    </div>
+  </div>
+<!-- END GRID -->
+
+</div>
+<div class="footer">
+  <p>Copyright © 2008 VietNgo Co. All rights reserved.</p>
+</div>
+
+</body>
+</html>
